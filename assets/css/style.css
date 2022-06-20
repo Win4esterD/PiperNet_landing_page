@@ -1,0 +1,225 @@
+
+.header {
+  width: 100%;
+  height: 84;
+  background-color: #007765;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-bottom: 18px;
+  margin-left: 501px;
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-sizing: border-box;
+  mix-blend-mode: pass-through;
+}
+
+.links{
+  text-align: right;
+  float: right;
+  margin-top: 29px;
+  margin-right: 400px;
+  margin-bottom: 27px;
+}
+
+
+
+.link {
+  display: inline-block;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+span {
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.pipernet {
+  width: 100%;
+  height: 403px;
+  background-image: url("image.png");
+  margin-top:-48px;
+  max-width: 100%;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-family: "Roboto";
+  position: relative;
+  text-align: center;
+  font-size: 72px;
+  padding-top: 160px;
+  max-width: 100%;
+}
+
+h2 {
+  color: #007765;
+  text-align: center;
+  font-size: 64px;
+  font-family: Roboto;
+  padding-top: 50px;
+  max-width: 100%;
+}
+
+.problem {
+  background-color: #EEEEEE;
+  width: 100%;
+  padding-bottom: 20px;
+  margin-top: -53px;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.prob {
+  text-align: left;
+  max-width: 100%;
+  margin-left: 22.4%;
+  margin-right: 22.4%;
+  padding-bottom: 0.1%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  max-width: 100%;
+}
+
+.reclame {
+  width: 100%;
+  max-width: 100%;
+  justify-content: center;
+  background-image: url(image-1.png);
+  margin-top: -47px;
+  max-width: 100%;
+}
+
+.description {
+  text-align: center;
+  font-family: Roboto;
+  font-style: italic;
+  color: #FFFFFF;
+  font-size: 48px;
+  padding-left: 27.8%;
+  padding-right: 27.8%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  max-width: 100%;
+}
+
+.introduction {
+  width: 100%;
+  background-color: #FFFFFF;
+  max-width: 100%;
+}
+
+.PPClogo {
+  margin-left: 22.4%;
+  padding-right: 2.4%;
+  float: left;
+  max-width: 100%;
+}
+
+.imgdescr {
+  text-align: left;
+  margin-left: 30.5%;
+  margin-right: 23.2%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  text-align: justify;
+  font-size: 32px;
+  max-width: 100%;
+
+}
+
+.team{
+  width: 100%;
+  background-color: #EEEEEE;
+  max-width: 100%;
+}
+
+.employees {
+  position: relative;
+  align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.employee {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin: 10px 30px 70px 30px;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+
+h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 24px;
+  color: #007765;
+  max-width: 100%;
+}
+
+.position {
+  font-family: Roboto;
+  font-style: italic;
+  font-size: 18px;
+  margin-top: -20px;
+  max-width: 100%;
+}
+
+.footer {
+  background-color: #333333;
+  height: 176px;
+  max-width: 100%;
+}
+
+.footerdescr {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.footertext {
+  text-align: center;
+  font-family: Roboto;
+  max-width: 100%;
+  color: #FFFFFF;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+/*320 px mobile */
+
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 560px) {
+
+.prob {
+
+}
+}
+
