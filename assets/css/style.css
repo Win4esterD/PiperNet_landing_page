@@ -283,4 +283,69 @@ h2{
 }
 }
 
-/*320 px mobile */
+/*820x1080px mobile */
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1180px){
+
+.links{
+  display: none;
+  }
+
+h1 {
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 30%;
+  text-align: center;
+  font-size: 62px;
+}
+
+h2{
+  font-size: 54px;
+  padding-top: 10%;
+  margin-bottom: 4%;
+}
+
+.prob {
+  text-align: justify;
+  font-size: 22px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.description {
+  font-size: 32px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.PiedPiperCoin{
+  padding-top: 1px;
+  font-size: 38px;
+}
+
+.PPClogo {
+  float: left;
+  margin-left: 5%;
+  margin-right: 0%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.imgdescr {
+  text-align: justify;
+  font-size: 22px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.footertext {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 10%;
+}
+
+}
